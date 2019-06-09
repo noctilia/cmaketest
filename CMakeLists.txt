@@ -6,3 +6,6 @@ add_subdirectory(myapp2)
 
 add_subdirectory(mylib1)
 
+add_subdirectory(myqt5app)
+
+
