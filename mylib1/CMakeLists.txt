@@ -1,8 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(cmaketest)
+project(mylib1)
 
-add_subdirectory(myapp1)
-add_subdirectory(myapp2)
-
-add_subdirectory(mylib1)
-
+add_library(${PROJECT_NAME} src/foo.cpp)
+target_include_directories(${PROJECT_NAME} PUBLIC include)

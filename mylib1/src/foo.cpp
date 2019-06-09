@@ -1,6 +1,6 @@
 #include "foo.h"
 
-int foo()
+int foo() 
 {
 	return 4711;
 }
