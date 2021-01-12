@@ -1,0 +1,3 @@
+# cmaketest
+
+some cmake tests
